@@ -1,0 +1,16 @@
+14:29:02 **** Auto Build of configuration Debug for project lab1 ****
+make all 
+'Building target: lab1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_bsp/psu_cortexa53_0/lib -o "lab1.elf"  ./src/lab1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size lab1.elf  |tee "lab1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33936	   2336	  20696	  56968	   de88	lab1.elf
+'Finished building: lab1.elf.size'
+' '
+
+14:29:03 Build Finished (took 1s.187ms)
+

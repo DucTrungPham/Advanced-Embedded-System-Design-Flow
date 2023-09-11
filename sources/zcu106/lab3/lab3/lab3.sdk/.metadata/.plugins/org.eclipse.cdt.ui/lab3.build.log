@@ -1,0 +1,21 @@
+14:24:32 **** Build of configuration Debug for project lab3 ****
+make all 
+'Building file: ../src/lab3.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DMULTIBOOT -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3.o" -I../../zynq_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lab3.d" -MT"src/lab3.o" -o "src/lab3.o" "../src/lab3.c"
+'Finished building: ../src/lab3.c'
+' '
+'Building target: lab3.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_bsp/psu_cortexa53_0/lib -o "lab3.elf"  ./src/lab3.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab3.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size lab3.elf  |tee "lab3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33640	   2336	  20672	  56648	   dd48	lab3.elf
+'Finished building: lab3.elf.size'
+' '
+
+14:24:35 Build Finished (took 2s.127ms)
+

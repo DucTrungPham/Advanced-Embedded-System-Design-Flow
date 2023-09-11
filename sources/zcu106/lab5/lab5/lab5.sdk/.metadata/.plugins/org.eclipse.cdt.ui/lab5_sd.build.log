@@ -1,0 +1,62 @@
+14:46:50 **** Auto Build of configuration Debug for project lab5_sd ****
+make all 
+'Building file: ../src/devcfg.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/devcfg.o" -I../../hello_world_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/devcfg.d" -MT"src/devcfg.o" -o "src/devcfg.o" "../src/devcfg.c"
+../src/devcfg.c: In function 'XDcfg_Transfer':
+../src/devcfg.c:355:35: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    XDcfg_InitiateDma(InstancePtr, (u32)SourcePtr,
+                                   ^
+../src/devcfg.c:356:6: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+      (u32)DestPtr, SrcWordLength, DestWordLength);
+      ^
+../src/devcfg.c:384:8: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+        (u32)SourcePtr, SrcWordLength,
+        ^
+../src/devcfg.c:385:8: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+        (u32)DestPtr,   DestWordLength);
+        ^
+../src/devcfg.c:434:35: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    XDcfg_InitiateDma(InstancePtr, (u32)SourcePtr,
+                                   ^
+../src/devcfg.c:435:6: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+      (u32)DestPtr, SrcWordLength, DestWordLength);
+      ^
+../src/devcfg.c: In function 'XDcfg_TransferBitfile':
+../src/devcfg.c:440:36: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  Status = XDcfg_Transfer(Instance, (u32 *) StartAddress, WordLength, (u32 *) XDCFG_DMA_INVALID_ADDRESS, 0, XDCFG_NON_SECURE_PCAP_WRITE);
+                                    ^
+'Finished building: ../src/devcfg.c'
+' '
+'Building file: ../src/lab5_sd.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5_sd.o" -I../../hello_world_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lab5_sd.d" -MT"src/lab5_sd.o" -o "src/lab5_sd.o" "../src/lab5_sd.c"
+../src/lab5_sd.c: In function 'SD_LoadBitFile':
+../src/lab5_sd.c:65:20: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  rc = f_read(&fil, (void*) DestinationAddress, ByteLength, &br);
+                    ^
+../src/lab5_sd.c: In function 'SD_ElfLoad':
+../src/lab5_sd.c:98:20: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  rc = f_read(&fil, (void*) DestinationAddress, ByteLength, &br);
+                    ^
+'Finished building: ../src/lab5_sd.c'
+' '
+'Building file: ../src/load_elf.s'
+'Invoking: ARM v8 gcc assembler'
+aarch64-none-elf-gcc -c  -o"src/load_elf.o" "../src/load_elf.s"
+'Finished building: ../src/load_elf.s'
+' '
+'Building target: lab5_sd.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/psu_cortexa53_0/lib -o "lab5_sd.elf"  ./src/devcfg.o ./src/lab5_sd.o ./src/load_elf.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5_sd.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size lab5_sd.elf  |tee "lab5_sd.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70940	   4492	  22972	  98404	  18064	lab5_sd.elf
+'Finished building: lab5_sd.elf.size'
+' '
+
+14:46:52 Build Finished (took 2s.155ms)
+

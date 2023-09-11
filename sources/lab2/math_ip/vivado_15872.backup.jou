@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Aug 18 14:49:15 2023
+# Process ID: 15872
+# Current directory: E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab2/math_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7000 E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\lab2\math_ip\math_ip.xpr
+# Log file: E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab2/math_ip/vivado.log
+# Journal file: E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab2/math_ip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xczu7ev-ffvc1156-2-e E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab2/math_ip/math_ip.xpr
+update_compile_order -fileset sources_1

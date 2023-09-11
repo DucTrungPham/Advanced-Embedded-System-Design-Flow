@@ -1,0 +1,59 @@
+13:41:33 INFO  : Registering command handlers for SDK TCF services
+13:41:35 INFO  : Launching XSCT server: xsct.bat -interactive E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+13:41:40 INFO  : XSCT server has started successfully.
+13:41:44 INFO  : Successfully done setting XSCT server connection channel  
+13:41:44 INFO  : Successfully done setting SDK workspace  
+13:41:44 INFO  : Processing command line option -hwspec E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/zcu106/lab5/lab5/lab5.sdk/system_wrapper.hdf.
+13:44:47 INFO  : Refreshed build settings on project hello_world
+13:54:44 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\QSPI_image\lab5.mcs
+13:54:44 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\QSPI_image\output.bif
+13:55:11 INFO  : Bootgen command execution is done.
+14:15:09 INFO  : Invoking Bootgen: bootgen -image hello_world.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\hello_world\bootimage\BOOT.bin
+14:15:09 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\hello_world\bootimage\hello_world.bif
+14:15:12 INFO  : Bootgen command execution is done.
+14:23:07 INFO  : Invoking Bootgen: bootgen -image lab5_qspi.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\lab5_qspi\bootimage\BOOT.bin
+14:23:07 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\lab5_qspi\bootimage\lab5_qspi.bif
+14:23:11 INFO  : Bootgen command execution is done.
+16:17:40 INFO  : Registering command handlers for SDK TCF services
+16:17:40 INFO  : Launching XSCT server: xsct.bat -interactive E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+16:17:43 INFO  : XSCT server has started successfully.
+16:17:44 INFO  : Successfully done setting XSCT server connection channel  
+16:17:44 INFO  : Successfully done setting SDK workspace  
+16:17:44 INFO  : Processing command line option -hwspec E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/zcu106/lab3/lab3/lab3.sdk/system_wrapper.hdf.
+16:23:20 INFO  : Invoking Bootgen: bootgen -image lab5_qspi.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\QSPI_image\BOOT.bin
+16:23:20 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\QSPI_image\lab5_qspi.bif
+16:23:24 INFO  : Bootgen command execution is done.
+17:11:31 INFO  : Registering command handlers for SDK TCF services
+17:11:32 INFO  : Launching XSCT server: xsct.bat -interactive E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+17:11:35 INFO  : XSCT server has started successfully.
+17:11:35 INFO  : Successfully done setting XSCT server connection channel  
+17:11:35 INFO  : Successfully done setting SDK workspace  
+17:11:35 INFO  : Processing command line option -hwspec E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/zcu106/lab3/lab3/lab3.sdk/system_wrapper.hdf.
+17:14:52 INFO  : Invoking Bootgen: bootgen -image lab5_qspi.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\QSPI_image\BOOT.mcs
+17:14:52 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\QSPI_image\lab5_qspi.bif
+17:15:18 INFO  : Bootgen command execution is done.
+16:13:14 INFO  : Launching XSCT server: xsct.bat -interactive E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+16:13:19 INFO  : XSCT server has started successfully.
+16:13:19 INFO  : Successfully done setting XSCT server connection channel  
+16:13:35 INFO  : Successfully done setting SDK workspace  
+16:13:52 INFO  : Registering command handlers for SDK TCF services
+16:13:54 INFO  : Processing command line option -hwspec E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/zcu106/lab5/lab5/lab5.sdk/system_wrapper.hdf.
+16:13:54 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+17:03:09 INFO  : Launching XSCT server: xsct.bat -interactive E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+17:03:12 INFO  : XSCT server has started successfully.
+17:03:21 INFO  : Successfully done setting XSCT server connection channel  
+17:03:21 INFO  : Successfully done setting SDK workspace  
+17:03:28 INFO  : Registering command handlers for SDK TCF services
+17:03:29 INFO  : Processing command line option -hwspec E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/zcu106/lab5/lab5/lab5.sdk/system_wrapper.hdf.
+17:03:30 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+17:14:42 INFO  : Invoking Bootgen: bootgen -image lab5_sd.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\SD_image\BOOT.bin
+17:14:42 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\SD_image\lab5_sd.bif
+17:14:45 INFO  : Bootgen command execution is done.
+14:31:46 INFO  : Registering command handlers for SDK TCF services
+14:31:47 INFO  : Launching XSCT server: xsct.bat -interactive E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+14:31:50 INFO  : XSCT server has started successfully.
+14:31:50 INFO  : Successfully done setting XSCT server connection channel  
+14:31:50 INFO  : Successfully done setting SDK workspace  
+14:52:37 INFO  : Invoking Bootgen: bootgen -image lab5_sd.bif -arch zynqmp -o E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\SD_image\BOOT.bin
+14:52:37 INFO  : Creating new bif file E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\SD_image\lab5_sd.bif
+14:52:40 INFO  : Bootgen command execution is done.

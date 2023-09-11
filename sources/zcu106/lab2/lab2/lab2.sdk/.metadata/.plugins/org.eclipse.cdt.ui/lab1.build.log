@@ -1,0 +1,28 @@
+14:22:37 **** Auto Build of configuration Release for project lab1 ****
+make all 
+'Building file: ../src/lab1.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/lab1.o" -I../../standalone_bsp_0/psu_cortexa53_0/include -MMD -MP -MF"src/lab1.d" -MT"src/lab1.o" -o "src/lab1.o" "../src/lab1.c"
+../src/lab1.c: In function 'main':
+../src/lab1.c:34:11: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+           if((sws_check & 0x03)==0x03)
+           ^~
+../src/lab1.c:36:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     for (i=0; i<9999999; i++); // delay loop
+     ^~~
+'Finished building: ../src/lab1.c'
+' '
+'Building target: lab1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/psu_cortexa53_0/lib -o "lab1.elf"  ./src/lab1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size lab1.elf  |tee "lab1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34540	   2432	  20672	  57644	   e12c	lab1.elf
+'Finished building: lab1.elf.size'
+' '
+
+14:22:38 Build Finished (took 1s.868ms)
+

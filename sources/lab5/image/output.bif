@@ -1,0 +1,8 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\zynq_fsbl\Debug\zynq_fsbl.elf
+	[destination_device = pl]E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	[destination_cpu = a53-0]E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\zcu106\lab5\lab5\lab5.sdk\hello_world\Debug\hello_world.elf
+}

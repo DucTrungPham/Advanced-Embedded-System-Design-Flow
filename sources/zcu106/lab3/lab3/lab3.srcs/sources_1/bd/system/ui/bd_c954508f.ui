@@ -1,0 +1,44 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port dip_switches_8bits -pg 1 -y 530 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -y 250 -defaultsOSRD
+preplace port led_8bits -pg 1 -y 390 -defaultsOSRD
+preplace inst switches -pg 1 -lvl 3 -y 530 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -y 510 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -y 370 -defaultsOSRD
+preplace inst buttons -pg 1 -lvl 3 -y 250 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 310 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -y 110 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst leds -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst rst_ps8_0_136M -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 110 -defaultsOSRD
+preplace netloc switches_GPIO 1 3 2 NJ 530 NJ
+preplace netloc leds_GPIO 1 3 2 NJ 390 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 40 210 660 210 1010
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 N
+preplace netloc zynq_ultra_ps_e_0_pl_clk1 1 0 3 30 200 670 170 1000J
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 3 1 N
+preplace netloc axi_smc_M00_AXI 1 2 1 N
+preplace netloc ps8_0_axi_periph_M02_AXI 1 2 1 990
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 N
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 1 2 690 530 1000
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 1 N
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 1020
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 20 410 640
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 1 650
+preplace netloc buttons_GPIO 1 3 2 NJ 250 NJ
+preplace netloc rst_ps8_0_136M_peripheral_aresetn 1 1 2 640 10 1010J
+preplace netloc rst_ps8_0_99M_interconnect_aresetn 1 1 1 680
+levelinfo -pg 1 0 340 840 1160 1440 1590 -top 0 -bot 610
+",
+}
+{
+   da_axi4_cnt: "11",
+   da_board_cnt: "8",
+   da_bram_cntlr_cnt: "4",
+   da_clkrst_cnt: "2",
+   da_zynq_ultra_ps_e_cnt: "3",
+}

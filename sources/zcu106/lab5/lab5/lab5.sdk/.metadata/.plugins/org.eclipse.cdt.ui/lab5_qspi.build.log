@@ -1,0 +1,21 @@
+17:09:13 **** Auto Build of configuration Debug for project lab5_qspi ****
+make all 
+'Building file: ../src/lab5_qspi.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5_qspi.o" -I../../hello_world_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/lab5_qspi.d" -MT"src/lab5_qspi.o" -o "src/lab5_qspi.o" "../src/lab5_qspi.c"
+'Finished building: ../src/lab5_qspi.c'
+' '
+'Building target: lab5_qspi.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/psu_cortexa53_0/lib -o "lab5_qspi.elf"  ./src/lab5_qspi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5_qspi.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size lab5_qspi.elf  |tee "lab5_qspi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34196	   2368	  20680	  57244	   df9c	lab5_qspi.elf
+'Finished building: lab5_qspi.elf.size'
+' '
+
+17:09:14 Build Finished (took 1s.315ms)
+

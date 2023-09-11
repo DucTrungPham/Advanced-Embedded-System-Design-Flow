@@ -1,0 +1,44 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port dip_switches_8bits -pg 1 -y 600 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -y 740 -defaultsOSRD
+preplace portBus leds -pg 1 -y 450 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 3 -y 280 -defaultsOSRD
+preplace inst switches -pg 1 -lvl 4 -y 600 -defaultsOSRD
+preplace inst math_ip_0 -pg 1 -lvl 4 -y 270 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 2 -y 280 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst buttons -pg 1 -lvl 4 -y 740 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -y 480 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst leds -pg 1 -lvl 4 -y 440 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -y 80 -defaultsOSRD
+preplace netloc ila_0_TRIG_OUT 1 1 1 N
+preplace netloc switches_GPIO 1 4 1 NJ
+preplace netloc leds_gpio_io_o 1 0 5 20 750 NJ 750 NJ 750 1300J 520 1600
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 30 540 270 380 940 370 1280
+preplace netloc ps8_0_axi_periph_M02_AXI 1 3 1 N
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 N
+preplace netloc zynq_ultra_ps_e_0_PS_PL_TRIGGER_0 1 0 3 10 570 NJ 570 900
+preplace netloc ps8_0_axi_periph_M03_AXI 1 3 1 1250
+preplace netloc math_ip_0_result 1 2 3 950 160 NJ 160 1600
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 2 2 920 360 1290
+preplace netloc ps8_0_axi_periph_M01_AXI 1 3 1 1270
+preplace netloc vio_0_probe_out0 1 3 1 1260
+preplace netloc vio_0_probe_out1 1 3 1 N
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1260
+preplace netloc vio_0_probe_out2 1 3 1 N
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 2 280 390 910
+preplace netloc rst_ps8_0_99M_interconnect_aresetn 1 2 1 930
+levelinfo -pg 1 -10 150 590 1100 1460 1620 -top 0 -bot 820
+",
+}
+{
+   da_axi4_cnt: "4",
+   da_board_cnt: "3",
+   da_clkrst_cnt: "2",
+   da_zynq_ultra_ps_e_cnt: "1",
+}

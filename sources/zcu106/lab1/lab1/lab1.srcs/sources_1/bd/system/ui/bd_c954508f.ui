@@ -1,0 +1,33 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port dip_switches_8bits -pg 1 -y 540 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -y 260 -defaultsOSRD
+preplace port led_8bits -pg 1 -y 400 -defaultsOSRD
+preplace inst switches -pg 1 -lvl 3 -y 540 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 300 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -y 380 -defaultsOSRD
+preplace inst buttons -pg 1 -lvl 3 -y 260 -defaultsOSRD
+preplace inst leds -pg 1 -lvl 3 -y 400 -defaultsOSRD
+preplace netloc switches_GPIO 1 3 1 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 30 210 640 220 970
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 1 1 N
+preplace netloc ps8_0_axi_periph_M02_AXI 1 2 1 960
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 1 2 650 210 980
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 1 N
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 990
+preplace netloc axi_gpio_0_GPIO 1 3 1 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 20 10 630
+preplace netloc axi_gpio_1_GPIO 1 3 1 NJ
+preplace netloc rst_ps8_0_99M_interconnect_aresetn 1 1 1 660
+levelinfo -pg 1 0 330 810 1100 1230 -top 0 -bot 620
+",
+}
+{
+   da_axi4_cnt: "6",
+   da_board_cnt: "5",
+   da_clkrst_cnt: "2",
+   da_zynq_ultra_ps_e_cnt: "2",
+}

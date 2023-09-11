@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 22 00:43:43 2023
+# Process ID: 9164
+# Current directory: E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4720 E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\lab6\fir_ip\fir_ip.xpr
+# Log file: E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip/vivado.log
+# Journal file: E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xczu7ev-ffvc1156-2-e E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip/fir_ip.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip'
+INFO: [Project 1-313] Project file moved from 'C:/xup/adv_embedded/labs/fir_ip' since last save.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'c:/xup/adv_embedded/labs/fir_ip'.
+INFO: [Project 1-563] Overriding project part, 'xc7vx485tffg1157-1', with new part: 'xczu7ev-ffvc1156-2-e'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/xup/adv_embedded/labs/fir_ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 806.680 ; gain = 54.672
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {E:\SISLAB\zcu106_work\Advanced-Embedded-System-Design-Flow-on-Zynq\sources\lab6\fir_ip\component.xml}
+WARNING: [IP_Flow 19-5226] Project source file 'e:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip/component.xml' ignored by IP packager.
+set_property supported_families {zynq Pre-Production virtex7 Production zynquplus Beta} [ipx::current_core]
+WARNING: [IP_Flow 19-4623] Unrecognized family  virtex7.  Please verify spelling and reissue command to set the supported files.
+set_property supported_families {zynq Pre-Production virtex7 Production zynquplus Beta zynquplus Beta} [ipx::current_core]
+WARNING: [IP_Flow 19-4623] Unrecognized family  virtex7.  Please verify spelling and reissue command to set the supported files.
+set_property core_revision 2 [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {e:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip c:/xup/adv_embedded/labs/fir_ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SISLAB/zcu106_work/Advanced-Embedded-System-Design-Flow-on-Zynq/sources/lab6/fir_ip'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/xup/adv_embedded/labs/fir_ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 22 00:46:51 2023...
